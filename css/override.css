@@ -1,0 +1,130 @@
+/* the only purpose here is to override url() with correct path for meteor app
+
+/* filetypes.css overrides
+ */
+
+@font-face {
+  font-family: 'Glyphicons Filetypes Regular';
+  src: url('/packages/fonts/glyphicons-filetypes-regular.eot');
+  src: url('/packages/fonts/glyphicons-filetypes-regular.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/glyphicons-filetypes-regular.woff') format('woff'), url('/packages/fonts/glyphicons-filetypes-regular.ttf') format('truetype'), url('/packages/fonts/glyphicons-filetypes-regular.svg#glyphicons_filetypesregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.filetype-icon {
+  background-image: url(/packages/images/glyphicons_filetypes.svg);
+}
+
+.filetype-icon _:-o-prefocus,
+.filetype-icon {
+  background-image: url(/packages/images/glyphicons_filetypes.png);
+}
+
+.no-inlinesvg .filetype-icon {
+  background-image: url(/packages/images/glyphicons_filetypes.png);
+}
+.filetype-icon.white {
+  background-image: url(/packages/images/glyphicons_filetypes-white.svg);
+}
+.filetype-icon.white _:-o-prefocus,
+.filetype-icon.white {
+  background-image: url(/packages/images/glyphicons_filetypes-white.png);
+}
+.no-inlinesvg .filetype-icon.white {
+  background-image: url(/packages/images/glyphicons_filetypes-white.png);
+}
+
+/* glyphicons.css overrides
+ */
+
+@font-face {
+  font-family: 'Glyphicons Regular';
+  src: url('/packages/fonts/glyphicons-regular.eot');
+  src: url('/packages/fonts/glyphicons-regular.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/glyphicons-regular.woff') format('woff'), url('/packages/fonts/glyphicons-regular.ttf') format('truetype'), url('/packages/fonts/glyphicons-regular.svg#glyphiconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.glyphicons-icon {
+  background-image: url(/packages/images/glyphicons.svg);
+}
+.glyphicons-icon _:-o-prefocus,
+.glyphicons-icon {
+  background-image: url(/packages/images/glyphicons.png);
+}
+.no-inlinesvg .glyphicons-icon {
+  background-image: url(/packages/images/glyphicons.png);
+}
+.glyphicons-icon.white {
+  background-image: url(/packages/images/glyphicons-white.svg);
+}
+.glyphicons-icon.white _:-o-prefocus,
+.glyphicons-icon.white {
+  background-image: url(/packages/images/glyphicons-white.png);
+}
+.no-inlinesvg .glyphicons-icon.white {
+  background-image: url(/packages/images/glyphicons-white.png);
+}
+
+/* halflings.css overrides
+ */
+@font-face {
+  font-family: 'Glyphicons Halflings Regular';
+  src: url('/packages/fonts/glyphicons-halflings-regular.eot');
+  src: url('/packages/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/packages/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/packages/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.halflings-icon {
+  background-image: url(/packages/images/glyphicons_halflings.svg);
+}
+.halflings-icon _:-o-prefocus,
+.halflings-icon {
+  background-image: url(/packages/images/glyphicons_halflings.png);
+}
+.no-inlinesvg .halflings-icon {
+  background-image: url(/packages/images/glyphicons_halflings.png);
+}
+.halflings-icon.white {
+  background-image: url(/packages/images/glyphicons_halflings-white.svg);
+}
+.halflings-icon.white _:-o-prefocus,
+.halflings-icon.white {
+  background-image: url(/packages/images/glyphicons_halflings-white.png);
+}
+.no-inlinesvg .halflings-icon.white {
+  background-image: url(/packages/images/glyphicons_halflings-white.png);
+}
+
+/* social.css overrides
+ */
+@font-face {
+  font-family: 'Glyphicons Social Regular';
+  src: url('/packages/fonts/glyphicons-social-regular.eot');
+  src: url('/packages/fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'), url('/packages/fonts/glyphicons-social-regular.woff') format('woff'), url('/packages/fonts/glyphicons-social-regular.ttf') format('truetype'), url('/packages/fonts/glyphicons-social-regular.svg#glyphicons_socialregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.social-icon {
+  background-image: url(/packages/images/glyphicons_social.svg);
+}
+.social-icon _:-o-prefocus,
+.social-icon {
+  background-image: url(/packages/images/glyphicons_social.png);
+}
+.no-inlinesvg .social-icon {
+  background-image: url(/packages/images/glyphicons_social.png);
+}
+.social-icon.white {
+  background-image: url(/packages/images/glyphicons_social-white.svg);
+}
+.social-icon.white _:-o-prefocus,
+.social-icon.white {
+  background-image: url(/packages/images/glyphicons_social-white.png);
+}
+.no-inlinesvg .social-icon.white {
+  background-image: url(/packages/images/glyphicons_social-white.png);
+}
+
