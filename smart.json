@@ -1,0 +1,9 @@
+{
+  "name": "glyphicons",
+  "description": "Repackage of the great Glyphicons pro package for use in meteor",
+  "homepage": "http://glyphicons.com/",
+  "author": "Glyphicons(Jan Kovařík) ThisPackaging(Scott Beck)",
+  "version": "0.0.1",
+  "git": "https://github.com/bline/meteor-glyphicons"
+}
+
